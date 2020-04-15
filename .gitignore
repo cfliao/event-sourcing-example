@@ -1,4 +1,4 @@
 node_modules/
 coverage/
 npm-debug.log
-event_log.txt
+event_store.txt

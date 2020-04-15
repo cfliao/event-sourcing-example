@@ -23,7 +23,7 @@ log('Accounts are opened', Account.get())
 Account.transferMoney('Samantha', 'John', 500)
 Account.transferMoney('Samantha', 'Suzzy', 500)
 
-log('Some money are transfered', Account.get())
+log('Some money are transferred', Account.get())
 
 // Close some accounts
 Account.close('Samantha')
@@ -35,7 +35,7 @@ log('Samantha closed her account', Account.get())
 log('--- Process events ---')
 
 // Rebuild from event log
-log('Rebuild accounts from event log', accountEvent.rebuild())
+log('Rebuild accounts from event store', accountEvent.rebuild())
 assert.deepEqual(Account.get(), accountEvent.rebuild())
 
 // Undo last event

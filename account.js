@@ -1,7 +1,7 @@
 'use strict'
 
 const AccountEvent = require('./accountEvent')
-
+//import {AccountEvent} from './accountEvent';
 // Current state (starts with empty, it's usually stored in a DB)
 const accounts = {}
 
@@ -50,3 +50,5 @@ module.exports = {
   close,
   transferMoney
 }
+
+//export {get as getAll, open, close, transferMoney};

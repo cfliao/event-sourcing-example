@@ -5,7 +5,7 @@ const path = require('path')
 const os = require('os')
 const _ = require('lodash')
 
-const EVENT_LOG_PATH = path.join(__dirname, 'event_log.txt')
+const EVENT_LOG_PATH = path.join(__dirname, 'event_store.txt')
 
 const EVENT = {
   open: 'open',
