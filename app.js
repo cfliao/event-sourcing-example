@@ -47,7 +47,6 @@ log('Undo last two event', accountEvent.undo(Account.get(), 2))
 // Query first step
 log('Query first step', accountEvent.query(1))
 
-// Query second step
 log('Query second step', accountEvent.query(2))
 
 for (let i = 0; i < accountEvent.size(); i++) {
